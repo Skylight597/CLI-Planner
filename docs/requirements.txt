@@ -1,0 +1,19 @@
+REQUIREMENTS
+
+1. The user is able to access the tool from the command line.
+2. Once the program starts, the user is given the option to either interact with existing projects, or to create a new project.
+
+CREATING A NEW PROJECT
+A. The user is prompted to name the project.
+B. The user is then prompted to define one or more project goals
+C. The user is then given the option to add tasks for each goal.
+D. For each task the user can also indicate its completion conditions: for example spending x hours on it or repeating it y number of times.
+E. The user then has the option to "Start" the project.  Once the project is in progress the task list is locked.  It assumes that the completion condition of the project is fixed.
+F. The project is complete when all of the Goals are complete.
+G. The goals are complete when all tasks associated to them are complete.
+
+UPDATING OR EDITING A PROJECT
+A. Projects are editable at the "Goal" level.  New ones can be added or old ones deleted.
+B. Goals are updated as tasks are updated.  Hours or repetitions are logged against user specified tasks.
+C. The progress bar of the project is aggregated based on the progress of each goal.
+D. The progress of each goal is calculated by the progress of each task.
